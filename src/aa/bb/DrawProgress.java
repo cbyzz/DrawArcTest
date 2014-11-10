@@ -28,11 +28,11 @@ public class DrawProgress extends Activity {
 			SampleView sampleView = new SampleView(this);
 			infoview.addView(sampleView);
 			setContentView(layBody);
-			sampleView.setBg(0);
-			Path path = new Path();
-			Canvas canvas = new Canvas();
-			path.addCircle(200, 200, 50, Path.Direction.CW);
-			canvas.clipPath(path);
+//			sampleView.setBg(0);
+//			Path path = new Path();
+//			Canvas canvas = new Canvas();
+//			path.addCircle(200, 200, 50, Path.Direction.CW);
+//			canvas.clipPath(path);
 
 	}
 }
